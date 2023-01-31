@@ -16,8 +16,15 @@ const SideBar = () => {
                 backgroundColor: category.name === SelectedCategory && '#FC1503',
                 color: '#fff'
             }}>
-                <span>{category.icon}</span>
-                <span>{category.name}</span>
+                <span style={{
+                    color: category.name === SelectedCategory ? 'white' : 'red',
+                    marginRight: '1.5rem',
+                }}>{category.icon}</span>
+
+                <span style={{
+                    opacity: category.name === SelectedCategory ? 1 : 0.8,
+                }}>{category.name}</span>
+                
             </button>
         ))}
 
