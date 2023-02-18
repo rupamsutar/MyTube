@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
+import {Stack, Box} from "@mui/material";
 
-const Videos = () => {
+const Videos = (props) => {
+  console.log(props.videos);
   return (
     <div>Videos</div>
   )
