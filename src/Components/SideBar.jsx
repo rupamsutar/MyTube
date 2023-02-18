@@ -4,8 +4,6 @@ import { categories } from '../utils/constants';
 
 const SideBar = (props) => {
 
-    console.log(props.selectedCategory);
-
   return (
     <Stack direction='row' sx={{
         overflowY: 'auto',
