@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NewTube/static/css/main.d1086851.css",
+    "main.js": "/NewTube/static/js/main.71f7aff2.js",
+    "index.html": "/NewTube/index.html",
+    "main.d1086851.css.map": "/NewTube/static/css/main.d1086851.css.map",
+    "main.71f7aff2.js.map": "/NewTube/static/js/main.71f7aff2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1086851.css",
+    "static/js/main.71f7aff2.js"
+  ]
+}
