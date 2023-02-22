@@ -24,6 +24,7 @@ const VideoCard = ({video: {id: {videoId}, snippet}}) => {
                 {snippet?.channelTitle.slice(0,60) || demoChannelTitle.slice(0, 60)}
                 <CheckCircle sx={{fontSize:"12", color:"gray", ml:"5px"}} />
               </Typography>
+              
             </Link>
         </CardContent>
 
