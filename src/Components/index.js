@@ -5,3 +5,6 @@ export { default as ChannelDetail } from "./ChannelDetail";
 export { default as SearchFeed } from "./SearchFeed";
 export { default as Videos } from "./Videos";
 export { default as SideBar } from "./SideBar";
+export { default as Loader } from "./Loader";
+export { default as VideoCard } from "./VideoCard";
+export { default as ChannelCard } from "./ChannelCard";
