@@ -5,24 +5,20 @@ body {
   box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
-}
-
 a {
   text-decoration: none;
   color: black;
 }
 
 ::-webkit-scrollbar {
-  width: 0rem;
-  height: 0.5rem;
+  width: 0px;
+  height: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: rgb(114, 113, 113);
-  border-radius: 1rem;
-  height: 20rem;
+  border-radius: 10px;
+  height: 200px;
 }
 
 ::-webkit-scrollbar-track {
@@ -46,7 +42,7 @@ a {
 .search-bar{
   border:none;
   outline:none;
-  width:35rem;
+  width:350px;
 }
 
 .category-btn{
@@ -54,21 +50,21 @@ a {
   text-transform: capitalize;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: start;
   cursor:pointer;
   background: transparent;
   outline: none;
   border: none;
 
-  padding: 0.7rem 1.5rem;
-  margin: 1rem 0rem;
-  border-radius: 2rem;
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
   transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 900px) {
   .category-btn{
-    margin: 1rem;
+    margin: 10px;
   }
 }
 
@@ -87,7 +83,6 @@ a {
     height: 45vh !important;
   }
   .search-bar{
-    width:20rem;
+    width:200px;
   }
 }
-

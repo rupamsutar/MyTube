@@ -4,8 +4,9 @@ import ReactPlayer from "react-player";
 import { Typography, Box, Stack } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
-import { Videos, Loader } from "./";
-import { FetchFromAPI } from "../utils/FetchFromAPI";
+import { fetchFromAPI } from "../utils/fetchFromAPI";
+import Videos from "./Videos";
+import Loader from "./Loader";
 
 const VideoDetail = () => {
   const [videoDetail, setVideoDetail] = useState(null);
@@ -13,11 +14,11 @@ const VideoDetail = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    FetchFromAPI(`videos?part=snippet,statistics&id=${id}`).then((data) =>
+    fetchFromAPI(`videos?part=snippet,statistics&id=${id}`).then((data) =>
       setVideoDetail(data.items[0])
     );
 
-    FetchFromAPI(`search?part=snippet&relatedToVideoId=${id}&type=video`).then(
+    fetchFromAPI(`search?part=snippet&relatedToVideoId=${id}&type=video`).then(
       (data) => setVideos(data.items)
     );
   }, [id]);
