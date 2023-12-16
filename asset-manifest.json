@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/NewTube/static/css/main.d1086851.css",
-    "main.js": "/NewTube/static/js/main.cf6f531f.js",
+    "main.js": "/NewTube/static/js/main.1911d859.js",
     "index.html": "/NewTube/index.html",
     "main.d1086851.css.map": "/NewTube/static/css/main.d1086851.css.map",
-    "main.cf6f531f.js.map": "/NewTube/static/js/main.cf6f531f.js.map"
+    "main.1911d859.js.map": "/NewTube/static/js/main.1911d859.js.map"
   },
   "entrypoints": [
     "static/css/main.d1086851.css",
-    "static/js/main.cf6f531f.js"
+    "static/js/main.1911d859.js"
   ]
 }
