@@ -5,8 +5,8 @@ import ChannelCard from "./ChannelCard";
 
 const Videos = (props) => {
   return (
-    <Stack direction="row" flexWrap="wrap" justifyContent="start" gap={2}>
-      {props.videos.map((item, idx) => {
+    <Stack direction="row" flexWrap="wrap" justifyContent="center" gap={2}>
+      {props?.videos?.map((item, idx) => {
         return (
           <Box key={idx}>
             {item.id.videoId && <VideoCard video={item} />}
